@@ -40,7 +40,8 @@ let myData = {
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/phone.jpg",
+        "githubUrl": "https://github.com/OrtizAlex/Work-Day-Scheduler"
       },
       {
         "name":"project2",
@@ -54,6 +55,18 @@ let myData = {
       },
       {
         "name":"project4",
+        "description":"mobileapp",
+        "imgurl":"images/portfolio/phone.jpg"
+      }
+      ,
+      {
+        "name":"project5",
+        "description":"mobileapp",
+        "imgurl":"images/portfolio/phone.jpg"
+      }
+      ,
+      {
+        "name":"project6",
         "description":"mobileapp",
         "imgurl":"images/portfolio/phone.jpg"
       }

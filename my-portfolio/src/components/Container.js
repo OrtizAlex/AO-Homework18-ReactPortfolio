@@ -22,7 +22,7 @@ export default function Container() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <Portfolio data={myData}/>;
     }
     if (currentPage === 'Resume') {
       return <Resume />;
