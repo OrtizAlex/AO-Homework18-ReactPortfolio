@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 
+
 import {
   Carousel,
   CarouselItem,
@@ -34,11 +35,17 @@ const Portfolio = (props) => {
       <CarouselItem
         className="custom-tag"
         tag="div"
-        key={item.id}
+        key={props.data.portfolio.id}
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
       >
-        <CarouselCaption className="text-success" captionText={item.description} captionHeader={item.name} />
+
+      
+
+      <div class="container bg-dark" background="black">        
+        <a href={item.githubUrl}><img className="d-block w-100" src={item.imgurl}/></a>
+        <a href={item.liveUrl}><CarouselCaption className="text-success caption-text" captionText={item.description} captionHeader={item.name} /></a>
+      </div>
         
       </CarouselItem>
     );
@@ -51,8 +58,19 @@ const Portfolio = (props) => {
           `.custom-tag {
               max-width: 100%;
               height: 500px;
-              background: grey;
-            }`
+              background: black;
+            }
+          .carousel-item, .carousel-item.active {
+              align-items:center;
+          }
+          .caption-text{
+            background: black;
+            margin: auto;
+          }
+          .control{
+            background: grey;
+            margin: auto;
+          }`
         }
       </style>
       <Carousel
@@ -62,8 +80,9 @@ const Portfolio = (props) => {
       >
         <CarouselIndicators items={props.data.portfolio} activeIndex={activeIndex} onClickHandler={goToIndex} />
         {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
+        
+        <CarouselControl className="control" direction="prev" directionText="Previous" onClickHandler={previous} />
+        <CarouselControl className="control" direction="next" directionText="Next" onClickHandler={next} />
       </Carousel>
     </div>
   );

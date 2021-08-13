@@ -38,37 +38,60 @@ let myData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
+        "id":1,
+        "name":"Work Day Scheduler",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg",
-        "githubUrl": "https://github.com/OrtizAlex/Work-Day-Scheduler"
+        "imgurl":"images/WorkDayScheduler.jpeg",
+        "alt": "test",
+        "githubUrl": "https://github.com/OrtizAlex/Work-Day-Scheduler",
+        "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
       },
       {
-        "name":"project2",
+        "id":2,
+        "name":"Team Profile Generator",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"images/TeamProfileGenerator.gif",
+        "alt": "test",
+        "githubUrl": "https://github.com/OrtizAlex/Team-Profile-Generator",
+        "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
       },
       {
-        "name":"project3",
+        "id":3,
+        "name":"Note Taker",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/NoteTaker.gif",
+        "alt": "test",
+        "githubUrl": "https://github.com/OrtizAlex/Note-Taker",
+        "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
       },
       {
-        "name":"project4",
+        "id":4,
+        "name":"ReadMe Generator",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/ReadMeGenerator.gif",
+        "alt": "test",
+        "githubUrl": "https://github.com/OrtizAlex/ReadMe-Generator",
+        "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
       }
       ,
       {
-        "name":"project5",
+        "id":5,
+        "name":"Tech Blog",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/TechBlog.jpeg",
+        "alt": "test",
+        "githubUrl": "https://github.com/OrtizAlex/Tech-Blog",
+        "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
       }
       ,
       {
-        "name":"project6",
+        "id":6,
+        "name":"E-Commerce Backend",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/ECommerceBackend.gif",
+        "alt": "test",
+        "githubUrl": "https://github.com/OrtizAlex/E-Commerce-Back-End",
+        "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
       }
     ]
   }

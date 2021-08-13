@@ -3,28 +3,6 @@ import logo from '../logo.svg';
 
 export default function Header(props) {
     return (
-        // <header class="jumbotron">
-        //     <div class="container-fluid container-lg">
-        //         <div class="row overflow-hidden">
-        //             <div >
-        //                 <div>
-        //                     <div class="text-center justify-center display-4">
-        //                         <div>
-        //                             <img src={logo} alt="test" class="align-bottom"/>
-        //                             <h2>{props.data.name}</h2>
-        //                         </div>
-        //                         <div class="container-fluid">
-        //                             <p class="lead">
-        //                                 Full Stack Web Developer
-        //                             </p>
-        //                         </div>
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </header>
-
         <div min-height="270px" background-color="#000044" color="#aaaacc">  
             <div class="container">
                 <div class="row">
