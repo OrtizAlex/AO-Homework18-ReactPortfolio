@@ -2,27 +2,22 @@ let myData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Alex Ortiz",
     "role": "Full Stack Developer",
-    "linkedinId":"OrtizAlex94",
+    "linkedinId":"ortizalexd",
     "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/ortizalexd",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/ortizalex",
           "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
+    "aboutme":"test",
+    "address":"USA",
     "website":"https://rbhatia46.github.io",
     "skillsDescription":"Your skills here",
     "skills":[
@@ -40,7 +35,7 @@ let myData = {
       {
         "id":1,
         "name":"Work Day Scheduler",
-        "description":"mobileapp",
+        "description":"Daily task scheduling application",
         "imgurl":"images/WorkDayScheduler.jpeg",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/Work-Day-Scheduler",
@@ -49,7 +44,7 @@ let myData = {
       {
         "id":2,
         "name":"Team Profile Generator",
-        "description":"mobileapp",
+        "description":"CLI Interface which genereates HTML page using Inquirer",
         "imgurl":"images/TeamProfileGenerator.gif",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/Team-Profile-Generator",
@@ -58,7 +53,7 @@ let myData = {
       {
         "id":3,
         "name":"Note Taker",
-        "description":"mobileapp",  
+        "description":"Rrite and save notes using an Express.js back end and will save and retrieve note data from a JSON file.",  
         "imgurl":"images/NoteTaker.gif",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/Note-Taker",
@@ -67,7 +62,7 @@ let myData = {
       {
         "id":4,
         "name":"ReadMe Generator",
-        "description":"mobileapp",
+        "description":"CLI which takes user inputted answers to prompted questions and generates a ReadMe file",
         "imgurl":"images/ReadMeGenerator.gif",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/ReadMe-Generator",
@@ -77,7 +72,7 @@ let myData = {
       {
         "id":5,
         "name":"Tech Blog",
-        "description":"mobileapp",
+        "description":"CMS-style blog connected to MySQL using the MVC design paradigm",
         "imgurl":"images/TechBlog.jpeg",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/Tech-Blog",
@@ -87,7 +82,7 @@ let myData = {
       {
         "id":6,
         "name":"E-Commerce Backend",
-        "description":"mobileapp",
+        "description":"Backend for an e-commerce site using Express.js and Sequelize to perform tasks on a MySQL database",
         "imgurl":"images/ECommerceBackend.gif",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/E-Commerce-Back-End",
