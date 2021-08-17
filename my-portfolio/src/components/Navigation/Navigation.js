@@ -1,9 +1,11 @@
 import React from 'react';
 
+import "./Navigation.css";
+
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-pills nav-fill">
+    <ul className="nav nav-pills nav-fill main-nav">
       
       <li className="nav-item">
         <a

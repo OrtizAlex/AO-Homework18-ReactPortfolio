@@ -1,8 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import myData from './myData';
-import Container from "./components/Container";
-import Footer from "./components/Footer";
+import Container from "./components/Container/Container";
 
 const App = () => 
  <Container />; 

@@ -42,7 +42,7 @@ const Portfolio = (props) => {
 
       
 
-      <div class="container bg-dark" background="black">        
+      <div className="container bg-dark" background="black">        
         <a href={item.githubUrl}><img className="d-block w-100" src={item.imgurl}/></a>
         <a href={item.liveUrl}><CarouselCaption className="text-success caption-text" captionText={item.description} captionHeader={item.name} /></a>
       </div>
@@ -52,7 +52,7 @@ const Portfolio = (props) => {
   });
 
   return (
-    <div>
+    <div> 
       <style>
         {
           `.custom-tag {
@@ -73,6 +73,7 @@ const Portfolio = (props) => {
           }`
         }
       </style>
+      <div><br/><br/><br/><br/></div>
       <Carousel
         activeIndex={activeIndex}
         next={next}

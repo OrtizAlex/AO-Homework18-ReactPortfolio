@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 
-import Footer from './Footer';
-import Header from './Header';
-import Navigation from './Navigation';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+import Navigation from '../Navigation/Navigation';
 
-import myData from '../myData';
+import myData from '../../myData';
 
-import Resume from './pages/Resume';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import Resume from '../pages/Resume';
+import About from '../pages/About/About';
+import Portfolio from '../pages/Portfolio';
+import Contact from '../pages/Contact';
+
+import "./Container.css";
 
 export default function Container() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -33,7 +35,7 @@ export default function Container() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="bg-dark text-white content">
       <Header data={myData}/>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
