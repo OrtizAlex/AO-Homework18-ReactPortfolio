@@ -9,7 +9,7 @@ import myData from '../../myData';
 import Resume from '../pages/Resume';
 import About from '../pages/About/About';
 import Portfolio from '../pages/Portfolio';
-import Contact from '../pages/Contact';
+import Contact from '../pages/Contact/Contact';
 
 import "./Container.css";
 

@@ -73,7 +73,7 @@ const Portfolio = (props) => {
           }`
         }
       </style>
-      <div><br/><br/><br/><br/></div>
+      <div><br/><br/><br/><br/><br/><p>Click on screenshot for Github link and title for live link</p></div>
       <Carousel
         activeIndex={activeIndex}
         next={next}

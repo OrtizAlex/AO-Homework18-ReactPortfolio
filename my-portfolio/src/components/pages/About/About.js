@@ -8,6 +8,7 @@ export default function About() {
     <div className="container-fluid about">
       <div><br/><br/></div>
       <h1 className="heading">Bio</h1>
+      
       <p className="text-centered">
       Pace University Class of 2016 - Bachelor's of Science in Computer Science - Columbia University Coding Bootcamp Graduate
       </p>
@@ -16,6 +17,7 @@ export default function About() {
         
         </div>
         <div class="col">
+        <img src="./images/self.jpg" className="img-responsive" height="300px"/>
         </div>
         <div class="col">
         </div>
@@ -41,7 +43,7 @@ export default function About() {
           <li>Node.js</li>
       </ul>
 
-      <div><br/><br/><br/><br/></div>
+      <div><br/><br/><br/><br/><br/><br/><br/><br/></div>
     </div>
   );
 }
