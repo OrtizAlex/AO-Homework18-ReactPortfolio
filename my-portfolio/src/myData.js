@@ -1,42 +1,13 @@
 let myData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Alex Ortiz",
     "role": "Full Stack Developer",
     "linkedinId":"ortizalexd",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
-    "socialLinks":[
-        {
-          "name":"linkedin",
-          "url":"https://www.linkedin.com/in/ortizalexd",
-          "className":"fa fa-linkedin"
-        },
-        {
-          "name":"github",
-          "url":"http://github.com/ortizalex",
-          "className":"fa fa-github"
-        }
-      ],
-    "aboutme":"test",
-    "address":"USA",
-    "website":"https://rbhatia46.github.io",
-    "skillsDescription":"Your skills here",
-    "skills":[
-      {
-        "skillname":"HTML5"
-      },
-      {
-        "skillname":"CSS"
-      },
-      {
-        "skillname":"Reactjs"
-      }
-    ],
     "portfolio":[
       {
         "id":1,
         "name":"Work Day Scheduler",
         "description":"Daily task scheduling application",
-        "imgurl":"images/WorkDayScheduler.jpeg",
+        "imgurl":"./images/WorkDayScheduler.jpeg",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/Work-Day-Scheduler",
         "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
@@ -45,7 +16,7 @@ let myData = {
         "id":2,
         "name":"Team Profile Generator",
         "description":"CLI Interface which genereates HTML page using Inquirer",
-        "imgurl":"images/TeamProfileGenerator.gif",
+        "imgurl":"./images/TeamProfileGenerator.gif",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/Team-Profile-Generator",
         "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
@@ -54,7 +25,7 @@ let myData = {
         "id":3,
         "name":"Note Taker",
         "description":"Rrite and save notes using an Express.js back end and will save and retrieve note data from a JSON file.",  
-        "imgurl":"images/NoteTaker.gif",
+        "imgurl":"./images/NoteTaker.gif",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/Note-Taker",
         "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
@@ -63,7 +34,7 @@ let myData = {
         "id":4,
         "name":"ReadMe Generator",
         "description":"CLI which takes user inputted answers to prompted questions and generates a ReadMe file",
-        "imgurl":"images/ReadMeGenerator.gif",
+        "imgurl":"./images/ReadMeGenerator.gif",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/ReadMe-Generator",
         "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
@@ -73,7 +44,7 @@ let myData = {
         "id":5,
         "name":"Tech Blog",
         "description":"CMS-style blog connected to MySQL using the MVC design paradigm",
-        "imgurl":"images/TechBlog.jpeg",
+        "imgurl":"./images/TechBlog.jpeg",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/Tech-Blog",
         "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"
@@ -83,7 +54,7 @@ let myData = {
         "id":6,
         "name":"E-Commerce Backend",
         "description":"Backend for an e-commerce site using Express.js and Sequelize to perform tasks on a MySQL database",
-        "imgurl":"images/ECommerceBackend.gif",
+        "imgurl":"./images/ECommerceBackend.gif",
         "alt": "test",
         "githubUrl": "https://github.com/OrtizAlex/E-Commerce-Back-End",
         "liveUrl": "https://mysterious-earth-72303.herokuapp.com/"

@@ -10,13 +10,13 @@ export default function Resume() {
         </div>
         <div class="col">
           <object
-          data="/doc/Resume.pdf"
+          data="./doc/Resume.pdf"
           type="application/pdf"
           width="500"
           height="678">
 
           <iframe
-            src="/doc/Resume.pdf"
+            src="./doc/Resume.pdf"
             width="500"
             height="678">
           <p>This browser does not support PDF!</p>
